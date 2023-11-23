@@ -3,6 +3,12 @@
 
 PiQuiz is built using a Raspberry Pi in conjunction with a 1602 LCD screen. For this build, I used the LCD screen as well as two LED lights. I wrote a python script that will display quiz questions on the LCD screen, and the user must enter the answers through the command line to progress. If the answer is correct, the user’s score is incremented and the green LED is triggered, if the answer is incorrect, the red LED is triggered.
 
+### Demo:
+
+https://github.com/zancrash/PiQuiz/assets/17016252/104c2c15-1ef8-4e26-9fde-e9d1085a329a
+
+
+
 To write the program, I had to use the rpi_lcd python library which creates an LCD class, and allows text to be send to the display. 
 
 Displaying text on the screen:
